@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterSystem.Api", "TheaterSystem.Api\TheaterSystem.Api.csproj", "{AE4E8544-2143-4CFC-82C6-B705FE68AA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterSystem.Application", "TheaterSystem.Application\TheaterSystem.Application.csproj", "{34DBB218-1797-4977-9816-D23EDDC078BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterSystem.Contracts", "TheaterSystem.Contracts\TheaterSystem.Contracts.csproj", "{5FE6147A-37E2-41FC-80D8-F03785D2C69E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterSystem.Infrastructure", "TheaterSystem.Infrastructure\TheaterSystem.Infrastructure.csproj", "{1FE74F14-FC42-4719-8ECA-632917B73A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterSystem.Domain", "TheaterSystem.Domain\TheaterSystem.Domain.csproj", "{3F68AD30-3A39-4A1C-A24F-22D27E1A9F91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE4E8544-2143-4CFC-82C6-B705FE68AA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4E8544-2143-4CFC-82C6-B705FE68AA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4E8544-2143-4CFC-82C6-B705FE68AA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4E8544-2143-4CFC-82C6-B705FE68AA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DBB218-1797-4977-9816-D23EDDC078BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DBB218-1797-4977-9816-D23EDDC078BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DBB218-1797-4977-9816-D23EDDC078BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DBB218-1797-4977-9816-D23EDDC078BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE6147A-37E2-41FC-80D8-F03785D2C69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE6147A-37E2-41FC-80D8-F03785D2C69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE6147A-37E2-41FC-80D8-F03785D2C69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE6147A-37E2-41FC-80D8-F03785D2C69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE74F14-FC42-4719-8ECA-632917B73A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE74F14-FC42-4719-8ECA-632917B73A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE74F14-FC42-4719-8ECA-632917B73A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE74F14-FC42-4719-8ECA-632917B73A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F68AD30-3A39-4A1C-A24F-22D27E1A9F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F68AD30-3A39-4A1C-A24F-22D27E1A9F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F68AD30-3A39-4A1C-A24F-22D27E1A9F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F68AD30-3A39-4A1C-A24F-22D27E1A9F91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
