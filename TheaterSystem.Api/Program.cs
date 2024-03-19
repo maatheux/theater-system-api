@@ -1,8 +1,12 @@
+using TheaterSystem.Api;
+using TheaterSystem.Application;
+using TheaterSystem.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 {
-    builder.Services.AddControllers();
-    builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
+    builder.Services.AddPresentation();
+    builder.Services.AddAppliction();
+    builder.Services.AddInfrastructure();
 }
 
 var app = builder.Build();
