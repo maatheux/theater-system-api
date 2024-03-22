@@ -18,7 +18,7 @@ public class AuthenticationController : ControllerBase
         if (!ModelState.IsValid)
             return BadRequest(new ResultResponse<List<string>>(ModelState.GetErrors()));
 
-        var result = authenticationService.Login(request.FirstName, request.LastName, request.Email, request.Password);
+        var result = authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
         var response = new AuthenticationResponse(
             result.Id,
             result.FirstName,
@@ -37,7 +37,7 @@ public class AuthenticationController : ControllerBase
         if (!ModelState.IsValid)
             return BadRequest(new ResultResponse<List<string>>(ModelState.GetErrors()));
         
-        var result = authenticationService.Register(request.Email, request.Password);
+        var result = authenticationService.Login(request.Email, request.Password);
         var response = new AuthenticationResponse(
             result.Id,
             result.FirstName,
