@@ -14,4 +14,7 @@ public class RegisterRequest
     [Required(ErrorMessage = "Password field is required")]
     [Length(minimumLength: 8, maximumLength: 16, ErrorMessage = "Password must contains 8-16 characters")]
     public string Password { get; set; }
+    [Required(ErrorMessage = "Birth day field is required")]
+    [DisplayFormat(DataFormatString = "dd/mm/yyyy")]
+    public DateTime BirthDay { get; set; }
 }
