@@ -8,4 +8,6 @@ public class User
     public string Email { get; set; } = null!;
     public string Password { get; set; } = null!;
     public DateTime BirthDay { get; set; } = new DateTime(1970, 1, 1);
+    public int StateId { get; set; } = 0;
+    public State State { get; set; } = null!;
 }
